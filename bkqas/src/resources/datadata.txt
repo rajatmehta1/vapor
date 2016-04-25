@@ -1,0 +1,5 @@
+How much did i spend <START:date> last year <END> .
+How much did i spend on starbucks <START:date> last month <END> .
+How much did i withdraw <START:date> last month <END> .
+How much did i save <START:date> last month <END> .
+Did i get any overdraft fee <START:date> yesterday <END> .

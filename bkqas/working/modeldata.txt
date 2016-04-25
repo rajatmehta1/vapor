@@ -1,0 +1,11 @@
+How much <START:acctdet> amount <END> is there in my account . 
+How much <START:acctdet> money <END> is there in my account . 
+How much did i <START:acctdet> spend <END> on gas this summer .
+How much <START:acctdet> amount <END> is there in my account .
+How much <START:acctdet> money <END> is there in my account .
+How much did i <START:acctdet> spend <END> on gas this summer .
+How much did i <START:acctdet> spend <END> on starbucks this summer .
+How much did i <START:acctdet> spend <END> on restaurants this summer .
+Was there any <START:acctdet> overdraft <END> fee on my <START:acctdet> account <END> .
+Did i get charged any <START:acctdet> overdraft <END> fee .
+Was i charged some <START:acctdet> overdraft <END> fee on my <START:acctdet> account <END>.

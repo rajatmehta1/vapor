@@ -1,0 +1,130 @@
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MS how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MO was i charged some overdraft fee on my account.\new
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MO was i charged some overdraft fee on my account.\new
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MO was i charged some overdraft fee on my account.\new
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+FC can i get a new cheque book.\new
+FC new cheque book.
+FC how can i get a new cheque book.
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+FC can i get a new cheque book.\new
+FC new cheque book.\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+CCBL what is my credit card bill.\new
+CCBL what is my credit card bill.\new
+CCBL what is the amount due on my credit card.\new
+CCBL my credit card amount due?\new
+SMT show my transactions.\new
+SMT show my current transactions.\new
+SMT show my latest transactions.\new
+SMT show my new transactions.\new
+SMT please send my transactions.\new
+SMT show my transactions.\new
+SMT show my current transactions.\new
+SMT show my latest transactions.\new
+SMT show my new transactions.\new
+SMT please send my transactions.\new
+SMT show my transactions.\new
+SMT show my current transactions.\new
+SMT show my latest transactions.\new
+SMT show my new transactions.\new
+SMT please send my transactions.\new
+SMT show my transactions.\new
+SMT show my current transactions.\new
+SMT show my latest transactions.\new
+SMT show my new transactions.\new
+SMT please send my transactions.\new
+SMT show my transactions.\new
+SMT show my current transactions.\new
+SMT show my latest transactions.\new
+SMT show my new transactions.\new
+SMT please send my transactions.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+FCSN customer service number.\new
+CRC can i chat with a customer service rep.\new
+CRC can i chat with a customer service rep.\new
+CRC can i chat with a customer service rep.\new
+CRC can i chat with a customer service rep.\new
+CRC can i chat with a customer service rep.\new
+CRC can i chat with a customer service rep.\new
+CRC chat with a customer service agent.\new
+CRC chat with a customer service agent.\new
+CRC chat with a customer service agent.\new
+CRC chat with a customer service agent.\new
+CRC chat with a customer service agent.\new

@@ -1,0 +1,8 @@
+How much did i <START:acctaction> spend <END> on starbucks last month .
+What is the <START:acctaction> amount <END> in my account .
+What is the <START:acctaction> balance <END> in my account .
+Is the salary <START:acctaction> deposited <END> into my account .
+Current <START:acctaction> amount <END> on my credit card .
+What is my <START:acctaction> credit card <END> bill .
+How much <START:acctaction> money <END> did i take out last week .
+How much <START:acctaction> money <END> did i make this month .

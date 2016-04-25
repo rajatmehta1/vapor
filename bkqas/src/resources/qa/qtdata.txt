@@ -1,0 +1,46 @@
+How much <START:acctdet> amount <END> is there in my account.\new
+How much <START:acctdet> money <END> is there in my account.\new
+How much did i <START:acctdet> spend <END> on gas this summer.\new
+How much did i <START:acctdet> spend <END> on starbucks this summer.\new
+How much <START:acctdet> amount <END> is there in my account.\new
+How much <START:acctdet> money <END> is there in my account.\new
+How much did i <START:acctdet> spend <END> on gas this summer.\new
+How much did i <START:acctdet> spend <END> on starbucks this summer.\new
+Was i charged some <START:acctdet> overdraft <END> fee on my <START:acctdet> account <END>.\new
+Can you send me a new <START:acctdet> cheque book <END>.\new
+Can you issue me a new <START:acctdet> cheque book <END>.\new
+Can you please send me a new <START:acctdet> cheque book <END>.\new
+How much <START:acctdet> amount <END> is there in my account.\new
+How much <START:acctdet> money <END> is there in my account.\new
+How much did i <START:acctdet> spend <END> on gas this summer.\new
+How much did i <START:acctdet> spend <END> on starbucks this summer.\new
+How much <START:acctdet> amount <END> is there in my account.\new
+How much <START:acctdet> money <END> is there in my account.\new
+How much did i <START:acctdet> spend <END> on gas this summer.\new
+How much did i <START:acctdet> spend <END> on starbucks this summer.\new
+Was i charged some <START:acctdet> overdraft <END> fee on my <START:acctdet> account <END>.\new
+FC can you send me a new <START:acctdet> cheque book <END>.\new
+FC can you issue me a new <START:acctdet> cheque book <END>.\new
+FC can you please send me a new <START:acctdet> cheque book <END>.\new
+MA how much <START:acctdet> amount <END> is there in my account.\new
+MA how much <START:acctdet> money <END> is there in my account.\new
+MA how much did i <START:acctdet> spend <END> on gas this summer.\new
+MA how much did i <START:acctdet> spend <END> on starbucks this summer.\new
+MA how much <START:acctdet> amount <END> is there in my account.\new
+MA how much <START:acctdet> money <END> is there in my account.\new
+MS how much did i spend on <START:acctdet> gas <END> this summer.\new
+MS how much did i spend on <START:acctdet> starbucks <END> this summer.\new
+MO was i charged some overdraft fee on my account.\new
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+FC can i get a new cheque book.\new
+FC new cheque book please.\new
+FC how can i get a new cheque book.\new
+FC my check book is filled can get a new one.\new
+FC can you send me a new check book.\new
+FC can you issue me a new check book.\new
+FC can you please send me a new check book.\new
+FC can i get a new check book.\new
+FC new check book please.\new
+FC how can i get a new check book.\new

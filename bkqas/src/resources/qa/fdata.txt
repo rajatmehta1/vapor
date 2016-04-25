@@ -1,0 +1,44 @@
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MS how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MO was i charged some overdraft fee on my account.\new
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MO was i charged some overdraft fee on my account.\new
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MA how much amount is there in my account.\new
+MA how much money is there in my account.\new
+MSG how much did i spend on gas this summer.\new
+MSS how much did i spend on starbucks this summer.\new
+MO was i charged some overdraft fee on my account.\new
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+FC can i get a new cheque book.\new
+FC new cheque book.
+FC how can i get a new cheque book.
+FC can you send me a new cheque book.\new
+FC can you issue me a new cheque book.\new
+FC can you please send me a new cheque book.\new
+FC can i get a new cheque book.\new
+FC new cheque book.\new
