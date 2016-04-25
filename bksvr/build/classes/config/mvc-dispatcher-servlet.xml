@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+       <beans xmlns="http://www.springframework.org/schema/beans" 
+
+                 xmlns:context="http://www.springframework.org/schema/context" 
+
+                 xmlns:mvc="http://www.springframework.org/schema/mvc" 
+
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+                 xmlns:p="http://www.springframework.org/schema/p" 
+
+                 xsi:schemaLocation="http://www.springframework.org/schema/beans 
+
+                                                   http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
+
+                                                   http://www.springframework.org/schema/context 
+
+                                                   http://www.springframework.org/schema/context/spring-context-3.2.xsd 
+
+                                                   http://www.springframework.org/schema/mvc 
+
+                                                   http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+
+
+
+      <!-- package below is only for sample service -->
+
+         <context:component-scan base-package="sb.controllers.rest" />
+
+         
+
+         <!-- here onwards the packages are real application packages -->
+
+         <bean id="userServiceRest" 
+
+                  class="sb.rest.impl.UserServiceRestImpl" 
+
+                  p:userService-ref = "userService"/>
+
+         
+
+         <bean id="storeServiceRest" 
+
+                  class="sb.rest.impl.StoreServiceRestImpl" 
+
+                  p:storeService-ref = "storeService"/>                  
+
+
+
+         <bean id="productServiceRest" 
+
+                  class="sb.rest.impl.ProductServiceRestImpl" 
+
+                  p:productService-ref = "productService"/>   
+
+                  
+
+         <bean id="myFeedServiceRest" 
+
+                  class="sb.rest.impl.MyFeedRestImpl" 
+
+                  p:myFeedService-ref = "myFeedService"/>                       
+
+
+
+         <bean id="trendingServiceRest" 
+
+                  class="sb.rest.impl.TrendingServiceRestImpl" 
+
+                  p:trendingService-ref = "trendingService"/> 
+
+        
+         <bean id="commentServiceRest" 
+
+                  class="sb.rest.impl.CommentServiceRestImpl" 
+
+                  p:commentsService-ref = "commentsService"/> 
+                                 
+
+         <bean id="collectionServiceRest" 
+
+                  class="sb.rest.impl.CollectionServiceRestImpl" 
+
+                  p:collectionService-ref = "collectionService"/> 
+                  
+         <bean id="browsingHistoryServiceRest" 
+
+                  class="sb.rest.impl.BrowsingHistoryServiceRestImpl" 
+
+                  p:browsingHistoryService-ref = "browsingHistoryService"/>         
+                  
+         <bean id="adminServiceRest" 
+
+                  class="sb.rest.impl.AdminServiceRestImpl" 
+
+                  p:adminDao-ref = "adminDao"/>                               
+                  
+                  
+         <bean id="wallServiceRest" 
+                  class="sb.rest.impl.WallServiceRestImpl" 
+                  p:wallService-ref = "wallService"/>
+
+         <bean id="dealServiceRest" 
+                  class="sb.rest.impl.DealServiceRestImpl" 
+                  p:dealService-ref = "dealService"/>
+
+                                    
+         <!-- services -->
+
+         <bean id="userService" 
+
+                  class="sb.services.impl.UserServiceImpl" 
+
+                  p:userDao-ref = "userDao">           
+
+         </bean>
+
+         
+
+         <bean id="storeService" 
+
+                  class="sb.services.impl.StoreServiceImpl" 
+
+                  p:storeDao-ref = "storeDao">         
+
+         </bean>     
+
+
+
+         <bean id="productService" 
+
+                  class="sb.services.impl.ProductServiceImpl" 
+
+                  p:productDao-ref = "productDao">            
+
+         </bean>                          
+
+
+
+         <bean id="myFeedService" 
+
+                  class="sb.services.impl.MyFeedServiceImpl" 
+
+                  p:myFeedDao-ref = "myFeedDao">        
+
+         </bean>
+
+
+
+         <bean id="trendingService" 
+
+                  class="sb.services.impl.TrendingServiceImpl" 
+
+                  p:trendingDao-ref = "trendingDao">          
+
+         </bean>
+
+
+         <bean id="commentsService" 
+
+                  class="sb.services.impl.CommentsServiceImpl" 
+
+                  p:commentDao-ref = "commentDao">          
+
+         </bean>
+
+         <bean id="collectionService" 
+
+                  class="sb.services.impl.CollectionServiceImpl" 
+
+                  p:collectionDao-ref = "collectionDao">          
+
+         </bean>                       
+
+       <bean id="wallService" 
+                  class="sb.services.impl.WallServiceImpl" 
+                  p:collectionDao-ref = "collectionDao" 
+                  p:dealDao-ref = "dealDao" 
+                  p:productDao-ref = "productDao" 
+                  p:userDao-ref = "userDao" 
+                  p:storeDao-ref = "storeDao">          
+        </bean>   
+         
+         
+         <bean id="browsingHistoryService" 
+                  class="sb.services.impl.BrowsingHistoryServiceImpl" 
+                  p:browsingHistoryDao-ref = "browsingHistoryDao">          
+         </bean>                       
+
+         <bean id="dealService" 
+                  class="sb.services.impl.DealServiceImpl" 
+                  p:dealDao-ref = "dealDao">           
+         </bean>
+
+         <!-- dao's -->
+
+         <bean id="userDao" 
+
+                  class="sb.dao.impl.UserDaoImpl" 
+
+                  p:dataSource-ref="dataSource" 
+
+                  p:storeDao-ref="storeDao" 
+
+                  p:productDao-ref="productDao" 
+                  
+                  p:collectionDao-ref="collectionDao" 
+                  p:commentDao-ref="commentDao"/>
+
+         
+
+         <bean id="storeDao" 
+
+                  class="sb.dao.impl.StoreDaoImpl"
+
+                  p:dataSource-ref="dataSource" 
+
+                  p:productDao-ref="productDao" 
+                  p:commentDao-ref="commentDao" 
+                  p:userDao-ref="userDao"/>
+
+         
+
+         <bean id="productDao" 
+
+                  class="sb.dao.impl.ProductDaoImpl"
+
+                  p:dataSource-ref="dataSource"  
+
+                  p:storeDao-ref="storeDao" 
+
+                  p:userDao-ref="userDao" 
+
+                  p:commentDao-ref="commentDao" 
+                  />
+
+
+
+         <bean id="myFeedDao" 
+
+                  class="sb.dao.impl.MyFeedDaoImpl"
+
+                  p:dataSource-ref="dataSource" 
+
+                  p:productDao-ref="productDao" 
+
+                  p:storeDao-ref="storeDao" 
+
+                  p:userDao-ref="userDao"/>
+
+
+
+         <bean id="trendingDao" 
+               class="sb.dao.impl.TrendingDaoImpl"
+               p:dataSource-ref="dataSource" 
+               p:productDao-ref="productDao" 
+               p:storeDao-ref="storeDao" 
+               p:userDao-ref="userDao"/>
+
+         <bean id="commentDao" 
+               class="sb.dao.impl.CommentsDaoImpl"
+               p:dataSource-ref="dataSource"/>
+
+                  
+         <bean id="collectionDao" 
+                  class="sb.dao.impl.CollectionDaoImpl" 
+				  p:productDao-ref="productDao" 
+                  p:dataSource-ref="dataSource" 
+                  p:commentDao-ref="commentDao" 
+                  p:userDao-ref="userDao"/>                  
+
+
+         <bean id="browsingHistoryDao" 
+                 class="sb.dao.impl.BrowsingHistoryDaoImpl"
+                 p:dataSource-ref="dataSource"/>                                                               
+
+
+         <bean id="adminDao" 
+                 class="sb.dao.impl.AdminDaoImpl"
+                 p:dataSource-ref="dataSource"/>
+
+           
+         <bean id="dealDao" 
+               class="sb.dao.impl.DealsDaoImpl"
+               p:dataSource-ref="dataSource"/>
+               
+         <bean id="autoProdDao" 
+               class="sb.dao.impl.AutoProdDaoImpl"
+               p:dataSource-ref="dataSource"/>
+                  
+                                   
+         <mvc:annotation-driven />
+
+         <bean id="dataSource" 
+                     class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+                     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+                     <property name="url" value="jdbc:mysql://localhost:3306/rajatme_kravekart" />
+                     <property name="username" value="root" />
+                     <property name="password" value="" />
+         </bean>
+		<!--  
+         <bean id="dataSource" 
+                     class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+                     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+                     <property name="url" value="jdbc:mysql://mysql3000.mochahost.com:3306/rajatme_kravekart" />
+                     <property name="username" value="rajatme_su" />
+                     <property name="password" value="Admin123" />
+         </bean>
+       -->  
+
+</beans>
